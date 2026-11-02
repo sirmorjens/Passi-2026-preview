@@ -110,7 +110,7 @@ export const TrophyState: {
 			accepts: [SlotTypes.EVENT, SlotTypes.EXHIBITOR, SlotTypes.STUDENTORG],
 		*/
 
-		l1: [
+		l1: [	// tekijä
 			{
 				accepts: [SlotTypes.TODOLIST],
 				seen: false,
@@ -132,7 +132,7 @@ export const TrophyState: {
 				asset: null,
 			},
 		],
-		l2: [
+		l2: [	// esihenkilö
 
 			{				
 				//accepts: [SlotTypes.EXHIBITOR],
@@ -163,7 +163,7 @@ export const TrophyState: {
 				asset: null,
 			},
 		],
-		l3: [{
+		l3: [{	// päällikkö
 				accepts: [SlotTypes.FEEDBACKLINK],
 				seen: false,
 				interactedWith: false,
@@ -177,7 +177,7 @@ export const TrophyState: {
 				asset: null,
 			},
 		],
-		l4: [],
+		l4: [],	// toimitusjohtaja (tää sellanen mihin voi laittaa niin paljon ku haluaa)
 		ids: [],
 		cids: [],
 		
