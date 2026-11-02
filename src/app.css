@@ -1,0 +1,146 @@
+:root {
+  font-family: 'DM Sans Variable', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 1.0rem;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 1);
+  background-color: #000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  --dnxpOrange: #FF5631;
+  --dnxpBlue: #634AFF;
+  --dnxpYellow: #fDfb8a;
+  --dnxpBackground: url('/app/dnxp/DNXP_passi_background.png');
+}
+
+body {
+  width: 100vw; /* so browsers without svw/svh support work */
+  width: 100svw;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: #000;
+  background-image: url('/images/dnxp_gradient_hd.jpg');
+  /*background-image: url('musta_tausta.png');*/
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+
+
+a {
+  font-weight: 500;
+  color: #634AFF;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: #000000ef;
+}
+
+button {
+  border-radius: 0.5rem;
+  border: 1px solid #ffffff90;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: inherit;
+  background: transparent;
+  cursor: pointer;
+  margin: 5px;
+  transition: border-color 0.25s;
+
+}
+button:hover {
+}
+
+button:focus,
+button:focus-visible {
+  border-color: #646cff;
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+button:active 
+{
+
+  transform: scale(0.95);
+  box-shadow: 0px 0px 10px #fff2;
+}
+
+button {
+  color: #ffffff;
+  color: var(--dnxpYellow);
+}
+
+button
+{
+  user-select: none;
+}
+
+.dnxp-number {
+  font-family: 'Roboto Mono Variable', monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  /*
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  */
+}
+/*
+@media screen and (min-width: 1200px)
+{
+  body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: black;
+  }
+  #app {
+    width: 600px;
+  background-image: url('dnxp_gradient.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}*/
