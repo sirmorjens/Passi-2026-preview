@@ -10,6 +10,7 @@ Kryptisiä api endpointteja / logiikkaa ym. muutakin toiminnallisuutta voisi pil
 Käynnistys:
 
 `npm install`
+
 `npm run dev`
 
 
